@@ -1,50 +1,68 @@
 /* @import url('halloween.css'); */
 
-/*@media screen { */
+/* @media screen { */
 
 
     body {
-        color: red;
-        /* font-size: 100%; */
+        color:  rgb(41, 219, 229) 50%;
+        font-size: 100%;
+        background-color: rgba(213,206,166,1);
     }
 
     h1 { 
         font-family: 'Courier New', Courier, monospace; 
-        font-size:2em; 
+        font-size:2em;
+        padding:5px;
     }
 
     h2 {color: green; 
         font-style:italic; 
-        font-size:1.5em; 
+        font-size:1.5em;
+        padding:3px;
     }
 
-    header {text-align: center}
+    header {
+        text-align: center; 
+        background-image: linear-gradient(to bottom,rgb(198, 179, 237) 0%, rgb(41, 219, 229) 50%, rgb(238, 188, 225) 100%);
+        padding:3px;
+    }
 
-    nav ul li { list-style-type:none; }
-    nav ul li a {text-decoration:none}
+    nav ul li { 
+        list-style-type: none; 
+        display: inline-block;
+    }
+    nav ul li a {
+        text-decoration:none;
+        width: 9em; 
+        height: 1.25em;
+        padding: 5px;
+    }
 
     header h2, #hipster h2 span {color: black}
 
-    nav {text-transform: uppercase }
+    nav {text-transform: uppercase; padding:3px; }
 
-    nav a:link {color: white; background-color:red}
-    nav a:hover {color:red;background-color:white}
+    nav a:link {color: white; background-color:rgb(192, 24, 164)}
+    nav a:hover {color:rgb(192, 24, 164);background-color:white}
 
-    p {color: blue; font-size: 18px; }
+
+    p {
+        color: blue; 
+        font-size: 18px; 
+        padding:2px; }
 
     p.two {
         color: black;
         font:bold 15px Arial, sans-serif;
+  
     }
 
-    footer { font-weight:bold; }
+    footer { font-weight:bold; padding:5px 0; }
     
     li { font-variant: small-caps; }
 
-
-    
-
-
+    article { border-bottom: 1px solid black; padding:5px; }
+    article h2 { background-image: linear-gradient(to bottom, rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); }
 
     /* li {
         font-variant: small-caps;
@@ -58,5 +76,6 @@
    
    
 
-}
+/* } */
+
 
